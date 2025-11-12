@@ -61,7 +61,7 @@ public class treeOrders {
             q.add(null);
             //logic : whenever we encounter null in Queue, next line
             while(!q.isEmpty()){
-                Node currNode = q.remove();
+                Node currNode = q.poll();
                 if(currNode == null){
                     System.out.println();
                     //if currentNode == null && q.isEmpty. break 
